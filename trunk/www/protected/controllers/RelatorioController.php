@@ -70,7 +70,7 @@ class RelatorioController extends Controller
 	public function geraRelatorio($job)
 	{
 		//somente para demonstrar o uso do gearman
-		sleep(2);
+		sleep(20);
 		
 		//pega chave
 		$chave = $job->workload();
